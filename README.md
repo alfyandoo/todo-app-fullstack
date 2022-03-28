@@ -1,3 +1,22 @@
-###My Todo List App
+# My Todo List App
 
-make sure you have [NodeJS](https://nodejs.org/en/download/), [PNPM](https://pnpm.io/id/installation), [Postgresql](https://www.postgresql.org/download/) installed
+## Usage
+make sure you have [NodeJS](https://nodejs.org/en/download/),  [Postgresql](https://www.postgresql.org/download/) installed.
+
+1. Intsall PNPM 
+```
+npm install pnpm || wget -qO- https://get.pnpm.io/install.sh | sh -
+```
+2. Instal node package with pnpm
+```
+pnpm install
+```
+3. Rename .env.example to .env and setup your database url
+4. At ./app/dbs/db open in new terminal then migrate db
+```
+npx prisma migrate dev --name init
+```
+5. Go back and run
+```
+pnpm node base
+```
