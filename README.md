@@ -7,7 +7,7 @@ make sure you have [NodeJS](https://nodejs.org/en/download/),  [Postgresql](http
 ```
 npm install pnpm
 ```
-or
+### or
 ```
 wget -qO- https://get.pnpm.io/install.sh | sh -
 ```
