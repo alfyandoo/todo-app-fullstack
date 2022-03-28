@@ -5,18 +5,22 @@ make sure you have [NodeJS](https://nodejs.org/en/download/),  [Postgresql](http
 
 1. Intsall PNPM 
 ```
-npm install pnpm || wget -qO- https://get.pnpm.io/install.sh | sh -
+npm install pnpm
+```
+or
+```
+wget -qO- https://get.pnpm.io/install.sh | sh -
 ```
 2. Instal node package with pnpm
 ```
 pnpm install
 ```
 3. Rename .env.example to .env and setup your database url
-4. At ./app/dbs/db open in new terminal then migrate db
+4. At todo-app-fullstack/app/dbs/db open in new terminal then migrate db
 ```
 npx prisma migrate dev --name init
 ```
-5. Go back and run
+5. Go back /todo-app-fullstack and run
 ```
 pnpm node base
 ```
