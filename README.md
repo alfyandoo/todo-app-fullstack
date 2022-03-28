@@ -1,4 +1,5 @@
 # My Todo List App
+This app built with reactjs and nodejs with prisma orm.
 
 ## Usage
 make sure you have [NodeJS](https://nodejs.org/en/download/),  [Postgresql](https://www.postgresql.org/download/) installed.
