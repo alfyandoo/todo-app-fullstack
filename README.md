@@ -4,7 +4,7 @@ This app built with reactjs and nodejs with prisma orm.
 ## Usage
 make sure you have [NodeJS](https://nodejs.org/en/download/),  [Postgresql](https://www.postgresql.org/download/) installed.
 
-1. Intsall PNPM 
+1. Intsall [PNPM](https://pnpm.io/id/installation)
 ```
 npm install pnpm
 ```
